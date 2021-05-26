@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Comments</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+</head>
+<body onload="loadComments();" id="">
+	<div class="comment-box">
+	
+		<h2 class="h2">Comentarios</h2>
+		
+		<div class="table-box">
+			<table id="table" class="table">
+			</table>
+	
+		</div> 
+		
+		<br>
+		
+		<div class="form-box">
+			<label>Digite su comentario:</label>
+			<form name="form1" id="form1" class="form1">
+				<textarea id="comment" class="text-area" ></textarea>
+
+				<br>
+				<div >
+					<input onclick="sendComment();" type="button" value="Agregar Comentario" id="inputComment" class="btn-submit">
+					<!-- <input type="reset" value="Resetear" class="btn-reset"> -->
+				</div>
+			</form>
+		</div>
+		
+	</div>
+</body>
+
+</html>
